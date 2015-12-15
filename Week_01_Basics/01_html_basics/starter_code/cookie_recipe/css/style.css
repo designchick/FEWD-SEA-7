@@ -1,0 +1,15 @@
+body {
+
+}
+div {
+	background-color: RGBA(0,255,0,0.5); /* green */ 
+}
+#main {
+	color: red;
+	font-weight: bold;
+}
+
+.optional {
+	color: gray;
+	font-style: italic;
+}

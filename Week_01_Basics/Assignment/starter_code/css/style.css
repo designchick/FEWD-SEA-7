@@ -1,0 +1,47 @@
+body {
+	background:#eee;
+	border-top: 5px solid #000;
+	font-family: helvetica;
+	max-width: 800px;
+	padding: 20px;
+	margin:0 auto;
+	margin-top: 20px;
+
+}
+
+#nav {
+	text-align: center;
+}
+
+#name {
+	text-align: center;
+	font-size: 34px;
+}
+
+#avatar {
+	float: right;
+	width: 150px;
+	border-style: solid;
+	border-width: thick;
+	border-color: white;
+}
+#container {
+	border-top: 1px solid #000;
+	border-bottom: 5px solid #000;
+	padding: 10px 20px 20px 20px;
+}
+#sociallinks {
+     padding: 10px;
+     display: inline;
+     border-top: 1px solid #000;
+     padding: 20px 10px 0px 10px;
+}
+#image {
+	border-style: solid;
+	border-width: thick;
+	border-color: white;
+}
+#content {
+	border-top: 1px solid #000;
+	padding-top: 20px;
+}
