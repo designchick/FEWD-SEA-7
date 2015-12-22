@@ -1,0 +1,32 @@
+body {
+	width: 800px;
+	margin: 0 auto;
+}
+
+header,
+footer {
+	height: 125px;
+	clear: both;
+	margin: 10px 0;
+}
+
+leftbar {
+	float: left;
+	display: block;
+	width: 200px;
+	height: 350px;
+	margin-right: 20px;
+}
+
+section {
+	float: left;
+	height: 350px;
+	width: 362px; 
+}
+
+sidebar {	
+	float: right;
+	display: block;
+	width: 200px;
+	height: 350px;
+}

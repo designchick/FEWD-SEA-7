@@ -1,0 +1,24 @@
+body {
+	width: 800px;
+	margin: 0 auto;
+}
+
+header,
+footer {
+	height: 125px;
+	clear: both;
+	margin: 10px 0;
+}
+
+sidebar {
+	float: right;
+	display: block;
+	width: 250px;
+	height: 350px;
+}
+
+section {
+	float: left;
+	height: 350px;
+	width: 538px; 
+}
