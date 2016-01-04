@@ -1,0 +1,53 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+    background-color: #f0efef;
+}
+
+a {
+	text-decoration: none;
+}
+.header {
+	background-color: #033048;
+}
+
+.nav {
+	background-color: #033048;
+}
+
+.gray {
+	border: 0;
+}
+
+.signupbkg {
+	background-color: #f9e42e;
+}
+
+.footer {
+	background-color: #121212;
+}
+
+.ad {
+	float: left;
+	background-color: white;
+	border: 0;
+	font-family: 'Open Sans', sans-serif; 
+	font-weight: 700;
+	text-align: center;
+	padding: 20px;
+	margin-left: 0;
+	color: #033048;
+
+}
+.clearfix:after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
+}
+* html .clearfix             { zoom: 1; } /* IE6 */
+*:first-child+html .clearfix { zoom: 1; } /* IE7 */
