@@ -1,6 +1,8 @@
 h1 { 
 	font-family: 'Open Sans', sans-serif; 
 	color: white;
+	float: left;
+	margin-left: 30px;
 }
 
 nav1,
@@ -8,6 +10,7 @@ nav2,
 nav3,
 nav4,
 nav5 { 
+	float: right;
 	font-family: 'Open Sans', sans-serif; 
 	color: #f9e42e;
 	font-size: 12px;
@@ -57,7 +60,6 @@ ul {
 }
 
 body {
-	width: 800px;
 	margin: 0 auto;
 }
 
@@ -68,6 +70,14 @@ footer {
 }
 
 header {	
+	float: center;
+	display: block;
+	width: 0 auto;
+	height: 80px;
+}
+
+
+logotitle {	
 	float: left;
 	display: block;
 	width: 200px;
@@ -157,6 +167,11 @@ article {
 }
 
 
+.container {
+	width: 900px;
+	margin: 0 auto;
+
+}
 
 sidebar {
 	float: right;
