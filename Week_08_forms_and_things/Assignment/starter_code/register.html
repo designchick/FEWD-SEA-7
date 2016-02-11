@@ -28,11 +28,40 @@
 		<section id="main">
 			<div class="container">
 				<section id="contact">
-					<input type="submit" value="Register Now!">
+					<form action="index.html" method="get">
+						<label for="fullname" required>Name</label>
+						<input name="fullname" type="text" placeholder="Your Full Name" />
+						<br>
+						<label for="email" required>Email</label>
+						<input type="email" placeholder="Your Email" />
+						<br>
+						<label for="tel">Phone</label>
+						<input type="tel" placeholder="XXX-XXX-XXXX" maxLength="10" />
+						<br>
+						<label for="state">State</label>
+						<select class="dropdown">
+							<option>California</option>
+							<option>Oregon</option>
+							<option>New York</option>
+							<option>Texas</option>
+							<option>Washington</option>
+						</select>
+						<br>
+							<label for="password">Password</label>
+							<input type="password" placeholder="Your Deepest Secret" />
+						<br>
+							<label for="interest">What interests you?</label>
+								<p><label for="1"><input type="radio" name="a" checked> Apples</label></p>
+								<p><label for="2"><input type="radio" name="a"> Cherries</label></p>
+								<p><label for="3"><input type="radio" name="a"> Strawberries</label></p>
+								<p><label for="4"><input type="radio" name="a"> Watermelon</label></p>
+						<br>
+						<input type="submit" class="register" value="Register Now!">
+					</form>
 				</section>
 			</div>
 		</section>
-
+<br><br>
 		<footer>
 			<h4 class="logo">Relaxr</h4>
 

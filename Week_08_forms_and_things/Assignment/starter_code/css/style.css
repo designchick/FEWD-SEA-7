@@ -10,6 +10,44 @@ Developer @GA in NYC
 /* SETUP
 /*******************************************/
 
+/*Form*/
+#contact {
+  font-size: 18px;
+  line-height: 40px;
+  margin-left: 50px;
+
+}
+
+input {
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  height: 30px;
+  width: 300px;
+  float: right;
+  padding-left: 10px;
+  font-size: 14px;
+}
+
+label [name="a"]{
+  width: 14px;
+}
+
+.dropdown {
+  float: right;
+  width:300px;
+  height: 30px;
+  border: 1px solid #ccc;
+  font-size: 14px;
+
+}
+
+.register {
+  background-color: #333;
+  color: white;
+  width: 300px;
+  height: 30px;
+}
+
 /* Box Model Hack */
 * {
   -moz-box-sizing: border-box; /* Firexfox */

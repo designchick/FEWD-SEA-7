@@ -58,9 +58,14 @@ var choices = [{
 		$("#your-vote").val(choices[choiceIndex].total);
 	}
 
-		$("#your-vote").change(function(e){
-		choices[choiceIndex].total = $("#your-vote").val();
-		var sumChoices = 0
-	})
+	$("#your-vote").change(
+
+		function onChange(){
+			var value = $( "#your-vote" ).val();
+			console.log(value);
+		}
+
+
+	);
 
 }); 
