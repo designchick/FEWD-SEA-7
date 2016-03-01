@@ -1,0 +1,50 @@
+body {
+	font-family: sans-serif;
+	font-size: 18px;
+	padding: 150px;
+}
+
+#newItem {
+	height: 30px;
+	border: none;
+	border-bottom: 2px solid #aaa;
+	width: 400px;
+	font-family: sans-serif;
+	font-size: 18px;
+	padding-left: 20px;
+	font-weight: 700;
+}
+
+#add {
+	height: 30px;
+	font-size: 18px;
+	background-color: #333;
+	font-family: sans-serif;
+	color: white;
+	border: none;
+	padding: 0px 20px 0px 20px;
+
+}
+
+.edit {
+	color: #ccc;
+	padding: 0px 20px 0px 20px;
+
+}
+
+.remove {
+	color: #ccc;
+	padding: 0px 20px 0px 20px;
+
+}
+
+button {
+	height: 24px;
+	font-family: sans-serif;
+	font-size: 12px;
+
+}
+
+.status {
+	color: #ff00cc;
+}
